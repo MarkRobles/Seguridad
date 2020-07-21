@@ -24,5 +24,7 @@ namespace Seguridad.DAL
         public SeguridadContext() : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<Seguridad.ViewModels.LogonViewModel> LogonViewModels { get; set; }
     }
 }
