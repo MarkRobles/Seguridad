@@ -12,6 +12,7 @@ using Seguridad.Models;
 
 namespace Seguridad.Controllers
 {
+    [Authorize]
     public class LibroController : Controller
     {
         private SeguridadContext db = new SeguridadContext();
